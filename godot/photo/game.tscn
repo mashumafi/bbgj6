@@ -1,32 +1,32 @@
-[gd_scene load_steps=74 format=3 uid="uid://bj3x678i8v1i4"]
+[gd_scene load_steps=73 format=3 uid="uid://bj3x678i8v1i4"]
 
 [ext_resource type="Script" path="res://scenes/snap_back.gd" id="2_6dvwc"]
-[ext_resource type="PackedScene" uid="uid://duoaw74ntyo0a" path="res://models/characters/Barbarian.glb" id="2_63vpv"]
+[ext_resource type="PackedScene" uid="uid://dv5iu611d1ufj" path="res://models/characters/Barbarian.glb" id="2_63vpv"]
 [ext_resource type="Script" path="res://photo/player.gd" id="2_meivo"]
 [ext_resource type="PackedScene" uid="uid://buyoydyupkuik" path="res://models/dungeon/floor_tile_large.gltf" id="3_fg2q8"]
 [ext_resource type="PackedScene" uid="uid://xxcmkoh4lir6" path="res://models/dungeon/wall.gltf" id="4_5i14t"]
-[ext_resource type="AudioStream" uid="uid://byx2sks0tnf50" path="res://audio/rpg/footstep00.ogg" id="4_cbwa4"]
-[ext_resource type="AudioStream" uid="uid://cx14g2paeih2f" path="res://audio/rpg/footstep01.ogg" id="5_b14wk"]
+[ext_resource type="AudioStream" uid="uid://byx2sks0tnf50" path="res://audio/rpg/footstep00.ogg" id="4_j0g7y"]
+[ext_resource type="AudioStream" uid="uid://cx14g2paeih2f" path="res://audio/rpg/footstep01.ogg" id="5_gf7lk"]
 [ext_resource type="PackedScene" uid="uid://dvc16ytd0jux7" path="res://scenes/basic_chest.tscn" id="5_jhv37"]
-[ext_resource type="AudioStream" uid="uid://bp3s5v4x35itw" path="res://audio/rpg/footstep02.ogg" id="6_khb60"]
-[ext_resource type="AudioStream" uid="uid://bhcjcaanedcc6" path="res://audio/rpg/footstep03.ogg" id="7_fq511"]
+[ext_resource type="AudioStream" uid="uid://bp3s5v4x35itw" path="res://audio/rpg/footstep02.ogg" id="6_8nngd"]
 [ext_resource type="PackedScene" uid="uid://52yx8bunhcda" path="res://models/dungeon/keg.gltf" id="7_k0k7e"]
+[ext_resource type="AudioStream" uid="uid://bhcjcaanedcc6" path="res://audio/rpg/footstep03.ogg" id="7_uown6"]
 [ext_resource type="PackedScene" uid="uid://bsdc63ix3a5pt" path="res://models/dungeon/chair.gltf" id="8_0a7b2"]
-[ext_resource type="AudioStream" uid="uid://cfnubolctiqoo" path="res://audio/rpg/footstep04.ogg" id="8_qt0li"]
-[ext_resource type="AudioStream" uid="uid://bxfci4e20s220" path="res://audio/rpg/footstep05.ogg" id="9_6q55a"]
+[ext_resource type="AudioStream" uid="uid://cfnubolctiqoo" path="res://audio/rpg/footstep04.ogg" id="8_aj88l"]
+[ext_resource type="AudioStream" uid="uid://bxfci4e20s220" path="res://audio/rpg/footstep05.ogg" id="9_6xv7t"]
 [ext_resource type="PackedScene" uid="uid://bxwgj2i38snpr" path="res://models/dungeon/table_long_tablecloth_decorated_A.gltf" id="9_7ls24"]
-[ext_resource type="AudioStream" uid="uid://dldxsd65u50iu" path="res://audio/rpg/footstep06.ogg" id="10_3ew4l"]
 [ext_resource type="PackedScene" uid="uid://dh2tauv064d2r" path="res://models/dungeon/rubble_large.gltf" id="10_cyb1e"]
+[ext_resource type="AudioStream" uid="uid://dldxsd65u50iu" path="res://audio/rpg/footstep06.ogg" id="10_g0875"]
 [ext_resource type="PackedScene" uid="uid://dpp18k5labnqm" path="res://models/dungeon/floor_tile_big_grate_open.gltf" id="11_1c46y"]
-[ext_resource type="AudioStream" uid="uid://dkufx5qnyvvpu" path="res://audio/rpg/footstep07.ogg" id="11_882xn"]
-[ext_resource type="AudioStream" uid="uid://cvj1twyra1s87" path="res://audio/rpg/footstep08.ogg" id="12_ighee"]
+[ext_resource type="AudioStream" uid="uid://dkufx5qnyvvpu" path="res://audio/rpg/footstep07.ogg" id="11_rkfu1"]
+[ext_resource type="AudioStream" uid="uid://cvj1twyra1s87" path="res://audio/rpg/footstep08.ogg" id="12_6r68c"]
 [ext_resource type="PackedScene" uid="uid://d01rq2robmm23" path="res://models/dungeon/floor_tile_big_spikes.gltf" id="12_x5s1b"]
-[ext_resource type="AudioStream" uid="uid://bqkhm6niqbysf" path="res://audio/rpg/footstep09.ogg" id="13_lptc8"]
+[ext_resource type="AudioStream" uid="uid://bqkhm6niqbysf" path="res://audio/rpg/footstep09.ogg" id="13_3siky"]
 [ext_resource type="PackedScene" uid="uid://qom3nyqv0b84" path="res://scenes/spike.tscn" id="13_pw6wu"]
-[ext_resource type="AudioStream" uid="uid://4lulq4ij23xp" path="res://audio/rpg/beltHandle1.ogg" id="14_6htf5"]
+[ext_resource type="AudioStream" uid="uid://4lulq4ij23xp" path="res://audio/rpg/beltHandle1.ogg" id="14_6ndfw"]
 [ext_resource type="PackedScene" uid="uid://x3ts2fy51172" path="res://models/dungeon/box_small.gltf" id="14_w5tom"]
 [ext_resource type="PackedScene" uid="uid://b3kdycojh000" path="res://models/dungeon/bed_floor.gltf" id="15_al0jk"]
-[ext_resource type="AudioStream" uid="uid://c2pftpp30a4sc" path="res://audio/rpg/beltHandle2.ogg" id="15_hlrc4"]
+[ext_resource type="AudioStream" uid="uid://c2pftpp30a4sc" path="res://audio/rpg/beltHandle2.ogg" id="15_qkxsx"]
 [ext_resource type="PackedScene" uid="uid://dty73ayqv4ufq" path="res://models/dungeon/banner_patternA_blue.gltf" id="16_0qmg7"]
 [ext_resource type="PackedScene" uid="uid://jspx3f14txx8" path="res://models/dungeon/banner_shield_yellow.gltf" id="17_444dp"]
 [ext_resource type="PackedScene" uid="uid://t1s6sba7w80" path="res://models/dungeon/bottle_A_green.gltf" id="18_svxnx"]
@@ -38,7 +38,6 @@
 [ext_resource type="PackedScene" uid="uid://cs2vsfnqaf17j" path="res://models/dungeon/table_small_decorated_A.gltf" id="24_scmui"]
 [ext_resource type="Script" path="res://scenes/move_to.gd" id="33_gdevb"]
 [ext_resource type="PackedScene" uid="uid://q1bmmna2rps7" path="res://scenes/skeleton.tscn" id="38_7sxmv"]
-[ext_resource type="AudioStream" uid="uid://blg35opg1v8lm" path="res://music/duneon.ogg" id="38_dspq8"]
 [ext_resource type="PackedScene" uid="uid://bslkqdf1ka5k8" path="res://models/dungeon/pillar.gltf" id="38_ee0xx"]
 [ext_resource type="Script" path="res://scenes/rotate.gd" id="39_yr31r"]
 [ext_resource type="PackedScene" uid="uid://bhefyhuxlmsew" path="res://scenes/platform.tscn" id="40_o0hcg"]
@@ -157,25 +156,25 @@ graph_offset = Vector2(5.35009, -9.58483)
 random_pitch = 1.1
 random_volume_offset_db = 0.5
 streams_count = 10
-stream_0/stream = ExtResource("4_cbwa4")
+stream_0/stream = ExtResource("4_j0g7y")
 stream_0/weight = 1.0
-stream_1/stream = ExtResource("5_b14wk")
+stream_1/stream = ExtResource("5_gf7lk")
 stream_1/weight = 1.0
-stream_2/stream = ExtResource("6_khb60")
+stream_2/stream = ExtResource("6_8nngd")
 stream_2/weight = 1.0
-stream_3/stream = ExtResource("7_fq511")
+stream_3/stream = ExtResource("7_uown6")
 stream_3/weight = 1.0
-stream_4/stream = ExtResource("8_qt0li")
+stream_4/stream = ExtResource("8_aj88l")
 stream_4/weight = 1.0
-stream_5/stream = ExtResource("9_6q55a")
+stream_5/stream = ExtResource("9_6xv7t")
 stream_5/weight = 1.0
-stream_6/stream = ExtResource("10_3ew4l")
+stream_6/stream = ExtResource("10_g0875")
 stream_6/weight = 1.0
-stream_7/stream = ExtResource("11_882xn")
+stream_7/stream = ExtResource("11_rkfu1")
 stream_7/weight = 1.0
-stream_8/stream = ExtResource("12_ighee")
+stream_8/stream = ExtResource("12_6r68c")
 stream_8/weight = 1.0
-stream_9/stream = ExtResource("13_lptc8")
+stream_9/stream = ExtResource("13_3siky")
 stream_9/weight = 1.0
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_47jey"]
@@ -196,9 +195,9 @@ scale_max = 0.3
 random_pitch = 1.1
 random_volume_offset_db = 0.5
 streams_count = 2
-stream_0/stream = ExtResource("14_6htf5")
+stream_0/stream = ExtResource("14_6ndfw")
 stream_0/weight = 1.0
-stream_1/stream = ExtResource("15_hlrc4")
+stream_1/stream = ExtResource("15_qkxsx")
 stream_1/weight = 1.0
 
 [node name="Game" type="Node3D"]
@@ -211,7 +210,7 @@ transform = Transform3D(0.965926, 0.0669873, 0.25, -0.258819, 0.25, 0.933013, 1.
 shadow_enabled = true
 
 [node name="CameraPivot" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.16329e-12, 4.16329e-12, 4.16329e-12)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1633e-12, 4.1633e-12, 4.1633e-12)
 
 [node name="Camera3D" type="Camera3D" parent="CameraPivot"]
 unique_name_in_owner = true
@@ -241,37 +240,37 @@ script = ExtResource("2_6dvwc")
 transform = Transform3D(-1, 3.48787e-16, -8.74228e-08, 3.48787e-16, 1, -3.48787e-16, 8.74228e-08, -3.48787e-16, -1, 0, 0, 0)
 
 [node name="Skeleton3D" parent="Player/ModelWrapper/Model/Rig" index="0"]
-bones/1/position = Vector3(0, 0.368446, 0)
+bones/1/position = Vector3(0, 0.385494, 0)
 bones/1/rotation = Quaternion(-1.11123e-10, 0.0431578, 2.57241e-09, 0.999068)
-bones/4/rotation = Quaternion(-0.550452, -0.0571854, -0.641373, 0.531388)
+bones/4/rotation = Quaternion(-0.557734, -0.0592421, -0.64101, 0.523955)
 bones/4/scale = Vector3(0.999999, 0.999999, 1)
-bones/5/rotation = Quaternion(3.2685e-08, -3.81165e-08, -0.510273, 0.860013)
+bones/5/rotation = Quaternion(7.85685e-09, -5.20829e-08, -0.503235, 0.86415)
 bones/6/rotation = Quaternion(-9.73784e-11, -2.98437e-10, 0.0266581, 0.999645)
 bones/6/scale = Vector3(1, 1, 1)
-bones/7/rotation = Quaternion(-0.320238, -0.338525, 0.147045, 0.872483)
-bones/8/rotation = Quaternion(0.0012716, 0.0012716, -0.702423, 0.711758)
-bones/11/rotation = Quaternion(-0.609291, 0.0777046, 0.616554, 0.492533)
+bones/7/rotation = Quaternion(-0.321515, -0.329455, 0.148052, 0.87531)
+bones/8/rotation = Quaternion(0.000225561, 0.000225542, -0.706279, 0.707934)
+bones/11/rotation = Quaternion(-0.616057, 0.0792814, 0.615645, 0.484944)
 bones/11/scale = Vector3(0.999999, 0.999999, 1)
-bones/12/rotation = Quaternion(4.27112e-08, 3.58457e-08, 0.532865, 0.8462)
+bones/12/rotation = Quaternion(3.175e-08, 5.58174e-08, 0.526144, 0.850396)
 bones/13/rotation = Quaternion(-9.73784e-11, 2.98437e-10, -0.0266581, 0.999645)
 bones/13/scale = Vector3(1, 1, 1)
-bones/14/rotation = Quaternion(-0.319351, 0.314378, -0.229207, 0.864087)
-bones/15/rotation = Quaternion(0.00391115, 0.00460675, 0.703029, 0.711136)
+bones/14/rotation = Quaternion(-0.319991, 0.305064, -0.229878, 0.867005)
+bones/15/rotation = Quaternion(0.000693741, 0.000817121, 0.706387, 0.707825)
 bones/16/rotation = Quaternion(1.40073e-07, 1, -1.03316e-07, -9.11951e-09)
 bones/17/rotation = Quaternion(1.40073e-07, 1, -1.03316e-07, -9.11951e-09)
 bones/18/rotation = Quaternion(1.40073e-07, 1, -1.03316e-07, -9.11951e-09)
 bones/19/rotation = Quaternion(-5.80608e-11, -0.0313417, -1.88012e-09, 0.999509)
 bones/21/rotation = Quaternion(4.44848e-36, -7.10543e-15, -6.26068e-22, 1)
-bones/22/rotation = Quaternion(0.98935, 0.0838184, 0.0788919, 0.0890949)
+bones/22/rotation = Quaternion(0.992887, 0.0831774, 0.0755368, 0.0393825)
 bones/22/scale = Vector3(1, 1, 1)
-bones/23/rotation = Quaternion(0.400425, 5.54856e-08, -2.70757e-07, 0.91633)
-bones/24/rotation = Quaternion(-0.624507, -0.200468, 0.077805, 0.750833)
+bones/23/rotation = Quaternion(0.269679, 6.49458e-08, -1.88471e-07, 0.96295)
+bones/24/rotation = Quaternion(-0.556072, -0.207027, 0.0551788, 0.803044)
 bones/25/rotation = Quaternion(-3.04791e-08, 0.920355, -0.391084, 6.94849e-08)
 bones/25/scale = Vector3(1, 1, 1)
-bones/26/rotation = Quaternion(0.991162, -0.0335157, 0.0297454, 0.124861)
+bones/26/rotation = Quaternion(0.995744, -0.0306832, 0.0309511, 0.0812024)
 bones/26/scale = Vector3(1, 1, 1)
-bones/27/rotation = Quaternion(0.444001, -5.86283e-08, 3.12427e-07, 0.896026)
-bones/28/rotation = Quaternion(-0.65029, 0.112366, -0.0238675, 0.750951)
+bones/27/rotation = Quaternion(0.331038, -6.25096e-08, 2.29954e-07, 0.943618)
+bones/28/rotation = Quaternion(-0.589393, 0.114054, -0.0134538, 0.799642)
 bones/29/rotation = Quaternion(3.04791e-08, 0.920355, -0.391084, -6.94849e-08)
 bones/29/scale = Vector3(1, 1, 1)
 bones/30/rotation = Quaternion(0.707107, -2.29302e-07, -4.60552e-08, 0.707107)
@@ -290,32 +289,32 @@ bones/40/rotation = Quaternion(-1.04035e-07, 0.391084, 0.920355, -2.95261e-08)
 bones/40/scale = Vector3(1, 1, 1)
 bones/41/rotation = Quaternion(-0.391084, -6.885e-08, -6.56288e-08, 0.920355)
 bones/41/scale = Vector3(1, 1, 1)
-bones/45/position = Vector3(0.520841, 0.771018, -0.0576374)
+bones/45/position = Vector3(0.520841, 0.78524, -0.0576374)
 bones/45/rotation = Quaternion(0.794627, -1.32247e-07, 0.607098, -5.02923e-08)
-bones/47/position = Vector3(-0.510844, 0.771018, 0.0597369)
+bones/47/position = Vector3(-0.510844, 0.785239, 0.0597369)
 bones/47/rotation = Quaternion(-0.758253, -1.89432e-07, 0.651961, -1.86264e-08)
 bones/47/scale = Vector3(1, 1, 1)
 
 [node name="1H_Axe_Offhand" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="0"]
-transform = Transform3D(9.47129e-07, 0.262864, 0.964832, 0.999905, -0.0132005, 0.00359587, 0.0136817, 0.964742, -0.262839, 0.516032, 0.61915, 0.0144212)
+transform = Transform3D(-3.42194e-07, 0.262864, 0.964832, 0.999996, -0.00234037, 0.000638318, 0.00242614, 0.96483, -0.262863, 0.516416, 0.633731, 0.0141374)
 
 [node name="Barbarian_Round_Shield" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="1"]
-transform = Transform3D(7.35641e-07, 0.262864, 0.964832, 0.999905, -0.013203, 0.00359677, 0.0136844, 0.964742, -0.262839, 0.662151, 0.619926, -0.0422742)
+transform = Transform3D(-5.53684e-07, 0.262863, 0.964832, 0.999996, -0.00234289, 0.000639224, 0.00242881, 0.96483, -0.262863, 0.662535, 0.633869, -0.042563)
 
 [node name="1H_Axe" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="2"]
-transform = Transform3D(-0.00275887, -0.161778, 0.986823, 0.999933, -0.0114711, 0.000914519, 0.0111724, 0.98676, 0.161799, -0.495759, 0.623696, 0.140283)
+transform = Transform3D(-0.000464723, -0.151951, 0.988387, 0.999997, -0.00205783, 0.000153589, 0.00201097, 0.988385, 0.151952, -0.495895, 0.638175, 0.140036)
 
 [node name="2H_Axe" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="3"]
-transform = Transform3D(-0.00275887, -0.161778, 0.986823, 0.999933, -0.0114711, 0.000914519, 0.0111724, 0.98676, 0.161799, -0.495759, 0.623696, 0.140283)
+transform = Transform3D(-0.000464723, -0.151951, 0.988387, 0.999997, -0.00205783, 0.000153589, 0.00201097, 0.988385, 0.151952, -0.495895, 0.638175, 0.140036)
 
 [node name="Mug" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="4"]
-transform = Transform3D(-0.00275887, -0.161778, 0.986823, 0.999933, -0.0114711, 0.000914519, 0.0111724, 0.98676, 0.161799, -0.487011, 0.323711, 0.0886271)
+transform = Transform3D(-0.000464723, -0.151951, 0.988387, 0.999997, -0.00205783, 0.000153589, 0.00201097, 0.988385, 0.151952, -0.488318, 0.33771, 0.0910539)
 
 [node name="Barbarian_Hat" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="5"]
 transform = Transform3D(1, -2.20965e-22, -1.42109e-14, 2.20965e-22, 1, 0, 1.42109e-14, -3.1401e-36, 1, -4.30385e-09, 1.1827, -1.39099e-07)
 
 [node name="Barbarian_Cape" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="6"]
-transform = Transform3D(0.996275, -5.14962e-09, 0.0862353, 5.13043e-09, 1, 4.44077e-10, -0.0862353, 1.8939e-15, 0.996275, -1.91641e-06, 1.17866, 2.59003e-08)
+transform = Transform3D(0.996275, -5.14962e-09, 0.0862353, 5.13043e-09, 1, 4.44077e-10, -0.0862353, 1.8939e-15, 0.996275, -1.91641e-06, 1.1957, 2.59003e-08)
 
 [node name="head" type="BoneAttachment3D" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="13"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.30385e-09, 1.20825, 1.58285e-15)
@@ -1332,23 +1331,23 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
 transform = Transform3D(1, -6.97574e-16, -1.5246e-23, -1.5246e-23, -4.37114e-08, 1, -6.97574e-16, -1, -4.37114e-08, 0, 0, 0)
 
 [node name="pillar2" parent="Zone4/Structure/decoration/Node3D" instance=ExtResource("38_ee0xx")]
-transform = Transform3D(-0.293176, 1.02256e-16, 0.95846, 3.48787e-16, 1, 0, -0.958462, 3.343e-16, -0.293181, 2, 7, -1)
+transform = Transform3D(-0.684771, 2.3884e-16, 0.733979, 3.48787e-16, 1, 0, -0.733989, 2.56004e-16, -0.684767, 2, 7, -1)
 script = ExtResource("39_yr31r")
 angle = -60.0
 
 [node name="pillar3" parent="Zone4/Structure/decoration/Node3D" instance=ExtResource("38_ee0xx")]
-transform = Transform3D(0.978496, -2.22563e-17, 0.216782, 0, 1, 0, -0.216783, 7.27544e-17, 0.978472, 2, 11, -1)
+transform = Transform3D(0.975947, -5.19807e-17, -0.234544, 0, 1, 0, 0.234552, 5.57147e-17, 0.975929, 2, 11, -1)
 script = ExtResource("39_yr31r")
 angle = 60.0
 
 [node name="Platform2" parent="Zone4/Structure/decoration" instance=ExtResource("40_o0hcg")]
-transform = Transform3D(-0.969412, 0, -0.229614, 0, 1, 0, 0.229606, 0, -0.969412, -2, 4, 1)
+transform = Transform3D(0.149494, 0, -0.982382, 0, 1, 0, 0.982372, 0, 0.149502, -2, 4, 1)
 
 [node name="Platform3" parent="Zone4/Structure/decoration" instance=ExtResource("40_o0hcg")]
-transform = Transform3D(0.993799, 0, -0.0696307, 0, 1, 0, 0.0696385, 0, 0.993802, 4, 5, 4)
+transform = Transform3D(0.149975, 0, 0.982313, 0, 1, 0, -0.982304, 0, 0.149973, 4, 5, 4)
 
 [node name="Platform4" parent="Zone4/Structure/decoration" instance=ExtResource("40_o0hcg")]
-transform = Transform3D(0.955324, 0, -0.298399, 0, 1, 0, 0.29839, 0, 0.955336, 10, 6, 1)
+transform = Transform3D(-0.930986, 0, -0.36947, 0, 1, 0, 0.36946, 0, -0.930999, 10, 6, 1)
 angle = -90.0
 
 [node name="Spike" parent="Zone4/Structure/decoration" instance=ExtResource("13_pw6wu")]
@@ -1388,7 +1387,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("38_dspq8")
 autoplay = true
 bus = &"Music"
 
