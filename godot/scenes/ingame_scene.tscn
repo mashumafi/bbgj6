@@ -4,11 +4,11 @@
 [ext_resource type="PackedScene" uid="uid://bkk87o2ooo6at" path="res://ui/overlays/fade_overlay.tscn" id="1_y6ebv"]
 [ext_resource type="Script" path="res://scenes/rotate_camera.gd" id="2_56egi"]
 [ext_resource type="PackedScene" uid="uid://bj3x678i8v1i4" path="res://photo/game.tscn" id="2_fmtmp"]
-[ext_resource type="Texture2D" uid="uid://dpqmmd6l73if3" path="res://panoramas/example.png" id="2_t8fsk"]
 [ext_resource type="PackedScene" uid="uid://jyv4g54adkmo" path="res://ui/overlays/pause_overlay.tscn" id="3_8o178"]
+[ext_resource type="Texture2D" uid="uid://dpqmmd6l73if3" path="res://panoramas/example.png" id="6_yg0iw"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_1peum"]
-panorama = ExtResource("2_t8fsk")
+panorama = ExtResource("6_yg0iw")
 
 [sub_resource type="Sky" id="Sky_jvy1q"]
 sky_material = SubResource("PanoramaSkyMaterial_1peum")
@@ -45,57 +45,20 @@ render_target_update_mode = 4
 
 [node name="Game" parent="VBoxContainer/SubViewportContainer/SubViewport" instance=ExtResource("2_fmtmp")]
 
-[node name="Skeleton3D" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig" index="0"]
-bones/1/position = Vector3(0, 0.3778, 0)
-bones/4/rotation = Quaternion(-0.551731, -0.0625133, -0.656414, 0.510692)
-bones/5/rotation = Quaternion(1.04558e-08, -5.31791e-08, -0.477668, 0.87854)
-bones/7/rotation = Quaternion(-0.316721, -0.330173, 0.134512, 0.878965)
-bones/8/rotation = Quaternion(0.0015632, 0.0015632, -0.701344, 0.712819)
-bones/11/rotation = Quaternion(-0.611218, 0.0826514, 0.629367, 0.472735)
-bones/12/rotation = Quaternion(3.70047e-08, 4.85888e-08, 0.501674, 0.865057)
-bones/14/rotation = Quaternion(-0.315378, 0.304347, -0.21625, 0.872437)
-bones/15/rotation = Quaternion(0.00431091, 0.00507762, 0.702609, 0.711545)
-bones/22/rotation = Quaternion(0.991439, 0.083203, 0.0772545, 0.0644781)
-bones/23/rotation = Quaternion(0.335427, 5.6834e-08, -2.37246e-07, 0.942066)
-bones/24/rotation = Quaternion(-0.590292, -0.20415, 0.0661064, 0.778144)
-bones/26/rotation = Quaternion(0.993738, -0.0319948, 0.0303716, 0.102661)
-bones/27/rotation = Quaternion(0.386428, -6.09369e-08, 2.70419e-07, 0.92232)
-bones/28/rotation = Quaternion(-0.619034, 0.113374, -0.0183912, 0.77692)
-bones/45/position = Vector3(0.520841, 0.767905, -0.0576374)
-bones/47/position = Vector3(-0.510844, 0.767905, 0.0597369)
-
-[node name="1H_Axe_Offhand" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig/Skeleton3D" index="0"]
-transform = Transform3D(1.0326e-06, 0.262863, 0.964832, 0.999858, -0.0162284, 0.00442067, 0.01682, 0.964696, -0.262826, 0.516105, 0.614257, 0.0122698)
-
-[node name="Barbarian_Round_Shield" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig/Skeleton3D" index="1"]
-transform = Transform3D(8.21109e-07, 0.262863, 0.964832, 0.999858, -0.016231, 0.00442158, 0.0168227, 0.964696, -0.262826, 0.662224, 0.61521, -0.0444228)
-
-[node name="1H_Axe" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig/Skeleton3D" index="2"]
-transform = Transform3D(-0.00304867, -0.162989, 0.986622, 0.999919, -0.0126445, 0.00100061, 0.0123127, 0.986546, 0.163015, -0.496293, 0.618479, 0.138142)
-
-[node name="2H_Axe" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig/Skeleton3D" index="3"]
-transform = Transform3D(-0.00304867, -0.162989, 0.986622, 0.999919, -0.0126445, 0.00100061, 0.0123127, 0.986546, 0.163015, -0.496293, 0.618479, 0.138142)
-
-[node name="Mug" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig/Skeleton3D" index="4"]
-transform = Transform3D(-0.00304867, -0.162989, 0.986622, 0.999919, -0.0126445, 0.00100061, 0.0123127, 0.986546, 0.163015, -0.487399, 0.318556, 0.086154)
-
-[node name="Barbarian_Cape" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Player/ModelWrapper/Model/Rig/Skeleton3D" index="6"]
-transform = Transform3D(0.996275, -5.14962e-09, 0.0862353, 5.13043e-09, 1, 4.44077e-10, -0.0862353, 1.8939e-15, 0.996275, -1.91641e-06, 1.18801, 2.59003e-08)
-
 [node name="pillar2" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Zone4/Structure/decoration/Node3D" index="0"]
-transform = Transform3D(-0.820469, 2.86167e-16, -0.574626, 3.48787e-16, 1, 0, 0.574621, -2.00417e-16, -0.820464, 2, 7, -1)
+transform = Transform3D(0.702016, -2.44849e-16, -0.714226, 3.48787e-16, 1, 0, 0.714238, -2.4911e-16, 0.70202, 2, 7, -1)
 
 [node name="pillar3" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Zone4/Structure/decoration/Node3D" index="1"]
-transform = Transform3D(-0.096105, -6.22795e-17, -0.996967, 0, 1, 0, 0.996987, -4.36191e-17, -0.0961, 2, 11, -1)
+transform = Transform3D(0.99898, -3.27354e-17, 0.0697514, 0, 1, 0, -0.0697497, 6.86096e-17, 0.998958, 2, 11, -1)
 
 [node name="Platform2" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Zone4/Structure/decoration" index="1"]
-transform = Transform3D(0.649968, 0, 0.756391, 0, 1, 0, -0.756389, 0, 0.649963, -2, 4, 1)
+transform = Transform3D(-0.96438, 0, -0.252284, 0, 1, 0, 0.252272, 0, -0.964382, -2, 4, 1)
 
 [node name="Platform3" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Zone4/Structure/decoration" index="2"]
-transform = Transform3D(-0.845806, 0, -0.5284, 0, 1, 0, 0.528397, 0, -0.845802, 4, 5, 4)
+transform = Transform3D(0.995746, 0, -0.0464984, 0, 1, 0, 0.0465005, 0, 0.995745, 4, 5, 4)
 
 [node name="Platform4" parent="VBoxContainer/SubViewportContainer/SubViewport/Game/Zone4/Structure/decoration" index="3"]
-transform = Transform3D(0.816137, 0, -0.578757, 0, 1, 0, 0.578754, 0, 0.816144, 10, 6, 1)
+transform = Transform3D(0.89818, 0, 0.441116, 0, 1, 0, -0.44111, 0, 0.898183, 10, 6, 1)
 
 [node name="ProgressBar" type="ProgressBar" parent="VBoxContainer"]
 layout_mode = 2

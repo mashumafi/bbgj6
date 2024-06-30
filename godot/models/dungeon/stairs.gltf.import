@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bjewuuxsdm72k"
+uid="uid://05lcvidpuekt"
 path="res://.godot/imported/stairs.gltf-549164e6bf7f4426edf263b813d3b933.scn"
 
 [deps]
@@ -33,7 +33,7 @@ _subresources={
 "nodes": {
 "PATH:stairs": {
 "generate/physics": true,
-"physics/shape_type": 1
+"physics/shape_type": 2
 }
 }
 }

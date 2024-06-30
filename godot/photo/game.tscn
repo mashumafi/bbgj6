@@ -1,37 +1,37 @@
 [gd_scene load_steps=61 format=3 uid="uid://bj3x678i8v1i4"]
 
 [ext_resource type="Script" path="res://scenes/snap_back.gd" id="2_6dvwc"]
-[ext_resource type="PackedScene" uid="uid://dv5iu611d1ufj" path="res://models/characters/Barbarian.glb" id="2_63vpv"]
+[ext_resource type="PackedScene" uid="uid://bl0pv14fetexx" path="res://models/characters/Barbarian.glb" id="2_63vpv"]
 [ext_resource type="Script" path="res://photo/player.gd" id="2_meivo"]
-[ext_resource type="PackedScene" uid="uid://buyoydyupkuik" path="res://models/dungeon/floor_tile_large.gltf" id="3_fg2q8"]
-[ext_resource type="PackedScene" uid="uid://xxcmkoh4lir6" path="res://models/dungeon/wall.gltf" id="4_5i14t"]
+[ext_resource type="PackedScene" uid="uid://c76kq0fne6w2d" path="res://models/dungeon/floor_tile_large.gltf" id="3_fg2q8"]
+[ext_resource type="PackedScene" uid="uid://clknrv1mycxmo" path="res://models/dungeon/wall.gltf" id="4_5i14t"]
 [ext_resource type="PackedScene" uid="uid://dvc16ytd0jux7" path="res://scenes/basic_chest.tscn" id="5_jhv37"]
-[ext_resource type="PackedScene" uid="uid://52yx8bunhcda" path="res://models/dungeon/keg.gltf" id="7_k0k7e"]
-[ext_resource type="PackedScene" uid="uid://bsdc63ix3a5pt" path="res://models/dungeon/chair.gltf" id="8_0a7b2"]
-[ext_resource type="PackedScene" uid="uid://bxwgj2i38snpr" path="res://models/dungeon/table_long_tablecloth_decorated_A.gltf" id="9_7ls24"]
-[ext_resource type="PackedScene" uid="uid://dh2tauv064d2r" path="res://models/dungeon/rubble_large.gltf" id="10_cyb1e"]
-[ext_resource type="PackedScene" uid="uid://dpp18k5labnqm" path="res://models/dungeon/floor_tile_big_grate_open.gltf" id="11_1c46y"]
-[ext_resource type="PackedScene" uid="uid://d01rq2robmm23" path="res://models/dungeon/floor_tile_big_spikes.gltf" id="12_x5s1b"]
+[ext_resource type="PackedScene" uid="uid://p1inqmlmlxd1" path="res://models/dungeon/keg.gltf" id="7_k0k7e"]
+[ext_resource type="PackedScene" uid="uid://bvsadpbuxvuy0" path="res://models/dungeon/chair.gltf" id="8_0a7b2"]
+[ext_resource type="PackedScene" uid="uid://cj5521aavxrgu" path="res://models/dungeon/table_long_tablecloth_decorated_A.gltf" id="9_7ls24"]
+[ext_resource type="PackedScene" uid="uid://bl3pxv1xxptle" path="res://models/dungeon/rubble_large.gltf" id="10_cyb1e"]
+[ext_resource type="PackedScene" uid="uid://dnmkbooacv6j" path="res://models/dungeon/floor_tile_big_grate_open.gltf" id="11_1c46y"]
+[ext_resource type="PackedScene" uid="uid://dlu7kngllk573" path="res://models/dungeon/floor_tile_big_spikes.gltf" id="12_x5s1b"]
 [ext_resource type="PackedScene" uid="uid://qom3nyqv0b84" path="res://scenes/spike.tscn" id="13_pw6wu"]
-[ext_resource type="PackedScene" uid="uid://x3ts2fy51172" path="res://models/dungeon/box_small.gltf" id="14_w5tom"]
-[ext_resource type="PackedScene" uid="uid://b3kdycojh000" path="res://models/dungeon/bed_floor.gltf" id="15_al0jk"]
-[ext_resource type="PackedScene" uid="uid://dty73ayqv4ufq" path="res://models/dungeon/banner_patternA_blue.gltf" id="16_0qmg7"]
-[ext_resource type="PackedScene" uid="uid://jspx3f14txx8" path="res://models/dungeon/banner_shield_yellow.gltf" id="17_444dp"]
-[ext_resource type="PackedScene" uid="uid://t1s6sba7w80" path="res://models/dungeon/bottle_A_green.gltf" id="18_svxnx"]
-[ext_resource type="PackedScene" uid="uid://d4ms1yiwbh4q6" path="res://models/dungeon/bottle_A_labeled_brown.gltf" id="19_o4rsk"]
-[ext_resource type="PackedScene" uid="uid://bfsyxmwroku52" path="res://models/dungeon/box_large.gltf" id="20_8jltr"]
-[ext_resource type="PackedScene" uid="uid://bjewuuxsdm72k" path="res://models/dungeon/stairs.gltf" id="21_odh5a"]
-[ext_resource type="PackedScene" uid="uid://0sijl6oyxrmm" path="res://models/dungeon/pillar_decorated.gltf" id="22_uyhel"]
-[ext_resource type="PackedScene" uid="uid://b8s6re4wf7fk8" path="res://models/dungeon/table_long_decorated_C.gltf" id="23_823yu"]
-[ext_resource type="PackedScene" uid="uid://cs2vsfnqaf17j" path="res://models/dungeon/table_small_decorated_A.gltf" id="24_scmui"]
+[ext_resource type="PackedScene" uid="uid://dt61m71fibd4d" path="res://models/dungeon/box_small.gltf" id="14_w5tom"]
+[ext_resource type="PackedScene" uid="uid://cpet78kqxu61t" path="res://models/dungeon/bed_floor.gltf" id="15_al0jk"]
+[ext_resource type="PackedScene" uid="uid://3o32nru4vac" path="res://models/dungeon/banner_patternA_blue.gltf" id="16_0qmg7"]
+[ext_resource type="PackedScene" uid="uid://u6qn6wtmmsfg" path="res://models/dungeon/banner_shield_yellow.gltf" id="17_444dp"]
+[ext_resource type="PackedScene" uid="uid://cx2a2rk64gefs" path="res://models/dungeon/bottle_A_green.gltf" id="18_svxnx"]
+[ext_resource type="PackedScene" uid="uid://wjbexd6pa07k" path="res://models/dungeon/bottle_A_labeled_brown.gltf" id="19_o4rsk"]
+[ext_resource type="PackedScene" uid="uid://b3hbje578tvkq" path="res://models/dungeon/box_large.gltf" id="20_8jltr"]
+[ext_resource type="PackedScene" uid="uid://05lcvidpuekt" path="res://models/dungeon/stairs.gltf" id="21_odh5a"]
+[ext_resource type="PackedScene" uid="uid://bgsqr2d2c6lf7" path="res://models/dungeon/pillar_decorated.gltf" id="22_uyhel"]
+[ext_resource type="PackedScene" uid="uid://r5yjvmud1dq7" path="res://models/dungeon/table_long_decorated_C.gltf" id="23_823yu"]
+[ext_resource type="PackedScene" uid="uid://cxsmpc3k7citn" path="res://models/dungeon/table_small_decorated_A.gltf" id="24_scmui"]
 [ext_resource type="Script" path="res://scenes/move_to.gd" id="33_gdevb"]
 [ext_resource type="PackedScene" uid="uid://q1bmmna2rps7" path="res://scenes/skeleton.tscn" id="38_7sxmv"]
-[ext_resource type="PackedScene" uid="uid://bslkqdf1ka5k8" path="res://models/dungeon/pillar.gltf" id="38_ee0xx"]
+[ext_resource type="PackedScene" uid="uid://dhluub28d6vks" path="res://models/dungeon/pillar.gltf" id="38_ee0xx"]
 [ext_resource type="Script" path="res://scenes/rotate.gd" id="39_yr31r"]
 [ext_resource type="PackedScene" uid="uid://bhefyhuxlmsew" path="res://scenes/platform.tscn" id="40_o0hcg"]
 [ext_resource type="PackedScene" uid="uid://beil0wl6q8awo" path="res://scenes/gold_chest.tscn" id="42_2rhp6"]
-[ext_resource type="PackedScene" uid="uid://ciqm5fjhixr0v" path="res://models/dungeon/coin_stack_large.gltf" id="43_078u8"]
-[ext_resource type="PackedScene" uid="uid://jhfw4sl8q5xy" path="res://models/dungeon/coin_stack_medium.gltf" id="44_wview"]
+[ext_resource type="PackedScene" uid="uid://dan7vw5mfqfjm" path="res://models/dungeon/coin_stack_large.gltf" id="43_078u8"]
+[ext_resource type="PackedScene" uid="uid://bqpfdbvg6tg7a" path="res://models/dungeon/coin_stack_medium.gltf" id="44_wview"]
 
 [sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_a34ik"]
 rayleigh_color = Color(1, 1, 1, 1)
@@ -216,37 +216,37 @@ script = ExtResource("2_6dvwc")
 transform = Transform3D(-1, 3.48787e-16, -8.74228e-08, 3.48787e-16, 1, -3.48787e-16, 8.74228e-08, -3.48787e-16, -1, 0, 0, 0)
 
 [node name="Skeleton3D" parent="Player/ModelWrapper/Model/Rig" index="0"]
-bones/1/position = Vector3(0, 0.380369, 0)
+bones/1/position = Vector3(0, 0.392064, 0)
 bones/1/rotation = Quaternion(-1.11123e-10, 0.0431578, 2.57241e-09, 0.999068)
-bones/4/rotation = Quaternion(-0.555949, -0.0581138, -0.639059, 0.528344)
+bones/4/rotation = Quaternion(-0.559906, -0.0608804, -0.643974, 0.517779)
 bones/4/scale = Vector3(0.999999, 0.999999, 1)
-bones/5/rotation = Quaternion(3.11534e-08, -3.30168e-08, -0.509061, 0.86073)
+bones/5/rotation = Quaternion(3.65498e-08, -4.88301e-08, -0.494719, 0.869053)
 bones/6/rotation = Quaternion(-9.73784e-11, -2.98437e-10, 0.0266581, 0.999645)
 bones/6/scale = Vector3(1, 1, 1)
-bones/7/rotation = Quaternion(-0.321769, -0.332594, 0.149469, 0.873788)
-bones/8/rotation = Quaternion(0.000404396, 0.000404382, -0.705621, 0.708589)
-bones/11/rotation = Quaternion(-0.614313, 0.0783186, 0.61411, 0.489239)
+bones/7/rotation = Quaternion(-0.321065, -0.325319, 0.145726, 0.87741)
+bones/8/rotation = Quaternion(-3.6586e-09, 6.87811e-09, -0.707107, 0.707107)
+bones/11/rotation = Quaternion(-0.618244, 0.0807286, 0.618012, 0.478873)
 bones/11/scale = Vector3(0.999999, 0.999999, 1)
-bones/12/rotation = Quaternion(2.35809e-08, 6.24512e-08, 0.531705, 0.84693)
+bones/12/rotation = Quaternion(2.09853e-08, 5.12855e-08, 0.517939, 0.855417)
 bones/13/rotation = Quaternion(-9.73784e-11, 2.98437e-10, -0.0266581, 0.999645)
 bones/13/scale = Vector3(1, 1, 1)
-bones/14/rotation = Quaternion(-0.32044, 0.308483, -0.231429, 0.865215)
-bones/15/rotation = Quaternion(0.00130002, 0.00153123, 0.705757, 0.708451)
+bones/14/rotation = Quaternion(-0.319291, 0.300524, -0.22735, 0.869512)
+bones/15/rotation = Quaternion(-1.02444e-09, -4.24391e-09, 0.707107, 0.707107)
 bones/16/rotation = Quaternion(1.40073e-07, 1, -1.03316e-07, -9.11951e-09)
 bones/17/rotation = Quaternion(1.40073e-07, 1, -1.03316e-07, -9.11951e-09)
 bones/18/rotation = Quaternion(1.40073e-07, 1, -1.03316e-07, -9.11951e-09)
 bones/19/rotation = Quaternion(-5.80608e-11, -0.0313417, -1.88012e-09, 0.999509)
 bones/21/rotation = Quaternion(4.44848e-36, -7.10543e-15, -6.26068e-22, 1)
-bones/22/rotation = Quaternion(0.991957, 0.0831387, 0.0767319, 0.0567521)
+bones/22/rotation = Quaternion(0.993715, 0.0837146, 0.0735038, 0.0109185)
 bones/22/scale = Vector3(1, 1, 1)
-bones/23/rotation = Quaternion(0.315145, 6.21424e-08, -2.15339e-07, 0.949044)
-bones/24/rotation = Quaternion(-0.579717, -0.205118, 0.0626507, 0.786085)
+bones/23/rotation = Quaternion(0.195602, 6.26228e-08, -1.32239e-07, 0.980683)
+bones/24/rotation = Quaternion(-0.517564, -0.209497, 0.0436549, 0.828452)
 bones/25/rotation = Quaternion(-3.04791e-08, 0.920355, -0.391084, 6.94849e-08)
 bones/25/scale = Vector3(1, 1, 1)
-bones/26/rotation = Quaternion(0.99442, -0.0315674, 0.0305564, 0.0959086)
+bones/26/rotation = Quaternion(0.997322, -0.0294574, 0.0315293, 0.0590483)
 bones/26/scale = Vector3(1, 1, 1)
-bones/27/rotation = Quaternion(0.36898, -6.11106e-08, 2.5747e-07, 0.929437)
-bones/28/rotation = Quaternion(-0.609668, 0.113615, -0.0168064, 0.784292)
+bones/27/rotation = Quaternion(0.274008, -6.38135e-08, 1.92761e-07, 0.961727)
+bones/28/rotation = Quaternion(-0.559039, 0.114513, -0.00862763, 0.82115)
 bones/29/rotation = Quaternion(3.04791e-08, 0.920355, -0.391084, -6.94849e-08)
 bones/29/scale = Vector3(1, 1, 1)
 bones/30/rotation = Quaternion(0.707107, -2.29302e-07, -4.60552e-08, 0.707107)
@@ -265,31 +265,32 @@ bones/40/rotation = Quaternion(-1.04035e-07, 0.391084, 0.920355, -2.95261e-08)
 bones/40/scale = Vector3(1, 1, 1)
 bones/41/rotation = Quaternion(-0.391084, -6.885e-08, -6.56288e-08, 0.920355)
 bones/41/scale = Vector3(1, 1, 1)
-bones/45/position = Vector3(0.520841, 0.782623, -0.0576374)
+bones/45/position = Vector3(0.520841, 0.788312, -0.0576373)
 bones/45/rotation = Quaternion(0.794627, -1.32247e-07, 0.607098, -5.02923e-08)
-bones/47/position = Vector3(-0.510844, 0.782623, 0.0597369)
+bones/47/position = Vector3(-0.510844, 0.788312, 0.0597369)
 bones/47/rotation = Quaternion(-0.758253, -1.89432e-07, 0.651961, -1.86264e-08)
+bones/47/scale = Vector3(1, 1, 1)
 
 [node name="1H_Axe_Offhand" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="0"]
-transform = Transform3D(3.48435e-06, 0.262856, 0.964834, 0.99999, -0.00419, 0.00113886, 0.00434251, 0.964825, -0.262854, 0.516324, 0.631102, 0.0144879)
+transform = Transform3D(6.56624e-07, 0.262863, 0.964832, 0.999999, -1.73649e-07, -2.08063e-07, 3.90927e-07, 0.964833, -0.262863, 0.516524, 0.636705, 0.0136164)
 
 [node name="Barbarian_Round_Shield" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="1"]
-transform = Transform3D(3.27284e-06, 0.262856, 0.964834, 0.99999, -0.00419252, 0.00113976, 0.00434518, 0.964825, -0.262853, 0.662444, 0.631348, -0.042211)
+transform = Transform3D(4.45132e-07, 0.262863, 0.964832, 0.999999, -2.6941e-06, 6.97818e-07, 3.06086e-06, 0.964833, -0.262863, 0.662643, 0.636705, -0.0430841)
 
 [node name="1H_Axe" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="2"]
-transform = Transform3D(-0.000901522, -0.153837, 0.988095, 0.999992, -0.00380952, 0.000318343, 0.00371576, 0.988088, 0.15384, -0.495794, 0.635607, 0.140378)
+transform = Transform3D(-5.86247e-07, -0.149894, 0.988701, 0.999999, -2.13301e-07, 1.97841e-07, 5.438e-07, 0.988701, 0.149894, -0.496054, 0.64103, 0.139528)
 
 [node name="2H_Axe" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="3"]
-transform = Transform3D(-0.000901522, -0.153837, 0.988095, 0.999992, -0.00380952, 0.000318343, 0.00371576, 0.988088, 0.15384, -0.495794, 0.635607, 0.140378)
+transform = Transform3D(-5.86247e-07, -0.149894, 0.988701, 0.999999, -2.13301e-07, 1.97841e-07, 5.438e-07, 0.988701, 0.149894, -0.496054, 0.64103, 0.139528)
 
 [node name="Mug" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="4"]
-transform = Transform3D(-0.000901522, -0.153837, 0.988095, 0.999992, -0.00380952, 0.000318343, 0.00371576, 0.988088, 0.15384, -0.487994, 0.33523, 0.0908982)
+transform = Transform3D(-5.86247e-07, -0.149894, 0.988701, 0.999999, -2.13301e-07, 1.97841e-07, 5.438e-07, 0.988701, 0.149894, -0.488717, 0.340464, 0.0911352)
 
 [node name="Barbarian_Hat" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="5"]
 transform = Transform3D(1, -2.20965e-22, -1.42109e-14, 2.20965e-22, 1, 0, 1.42109e-14, -3.1401e-36, 1, -4.30385e-09, 1.1827, -1.39099e-07)
 
 [node name="Barbarian_Cape" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="6"]
-transform = Transform3D(0.996275, -5.14962e-09, 0.0862353, 5.13043e-09, 1, 4.44077e-10, -0.0862353, 1.8939e-15, 0.996275, -1.91641e-06, 1.19058, 2.59003e-08)
+transform = Transform3D(0.996275, -5.14962e-09, 0.0862353, 5.13043e-09, 1, 4.44077e-10, -0.0862353, 1.8939e-15, 0.996275, -1.91641e-06, 1.20227, 2.59003e-08)
 
 [node name="head" type="BoneAttachment3D" parent="Player/ModelWrapper/Model/Rig/Skeleton3D" index="13"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.30385e-09, 1.20825, 1.58285e-15)
@@ -1306,23 +1307,21 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
 transform = Transform3D(1, -6.97574e-16, -1.5246e-23, -1.5246e-23, -4.37114e-08, 1, -6.97574e-16, -1, -4.37114e-08, 0, 0, 0)
 
 [node name="pillar2" parent="Zone4/Structure/decoration/Node3D" instance=ExtResource("38_ee0xx")]
-transform = Transform3D(0.909878, -3.17347e-16, 0.424554, 3.48787e-16, 1, 0, -0.424552, 1.48079e-16, 0.909867, 2, 7, -1)
+transform = Transform3D(-0.392292, 1.3682e-16, -0.924901, 3.48787e-16, 1, 0, 0.924907, -3.22591e-16, -0.392282, 2, 7, -1)
 script = ExtResource("39_yr31r")
-angle = -60.0
 
 [node name="pillar3" parent="Zone4/Structure/decoration/Node3D" instance=ExtResource("38_ee0xx")]
-transform = Transform3D(-0.0785106, 6.90666e-17, 1.0009, 0, 1, 0, -1.00092, 3.22293e-17, -0.0785144, 2, 11, -1)
+transform = Transform3D(-0.611785, -2.97767e-17, -0.796799, 0, 1, 0, 0.796792, -7.02079e-17, -0.611773, 2, 11, -1)
 script = ExtResource("39_yr31r")
-angle = 60.0
 
 [node name="Platform2" parent="Zone4/Structure/decoration" instance=ExtResource("40_o0hcg")]
-transform = Transform3D(0.456309, 0, 0.882269, 0, 1, 0, -0.882261, 0, 0.456309, -2, 4, 1)
+transform = Transform3D(-0.194705, 0, 0.97297, 0, 1, 0, -0.97296, 0, -0.194707, -2, 4, 1)
 
 [node name="Platform3" parent="Zone4/Structure/decoration" instance=ExtResource("40_o0hcg")]
-transform = Transform3D(-0.698445, 0, -0.706254, 0, 1, 0, 0.706252, 0, -0.698444, 4, 5, 4)
+transform = Transform3D(-0.104011, 0, -0.986786, 0, 1, 0, 0.986791, 0, -0.10401, 4, 5, 4)
 
 [node name="Platform4" parent="Zone4/Structure/decoration" instance=ExtResource("40_o0hcg")]
-transform = Transform3D(-0.771367, 0, -0.639146, 0, 1, 0, 0.639128, 0, -0.771377, 10, 6, 1)
+transform = Transform3D(-0.659255, 0, 0.754664, 0, 1, 0, -0.754658, 0, -0.659265, 10, 6, 1)
 angle = -90.0
 
 [node name="Spike" parent="Zone4/Structure/decoration" instance=ExtResource("13_pw6wu")]
