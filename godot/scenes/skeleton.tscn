@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://q1bmmna2rps7"]
+
+[ext_resource type="PackedScene" uid="uid://co3nc5buimedd" path="res://models/skeletons/Skeleton_Warrior.glb" id="1_0k6fp"]
+[ext_resource type="Script" path="res://scenes/skeleton.gd" id="1_yikda"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lnd7a"]
+
+[node name="Skeleton" type="Area3D" node_paths=PackedStringArray("animation_player")]
+script = ExtResource("1_yikda")
+animation_player = NodePath("Skeleton_Warrior/AnimationPlayer")
+
+[node name="Skeleton_Warrior" parent="." instance=ExtResource("1_0k6fp")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_lnd7a")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

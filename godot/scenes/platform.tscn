@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhefyhuxlmsew"]
+
+[ext_resource type="Script" path="res://scenes/rotate.gd" id="1_iv557"]
+[ext_resource type="PackedScene" uid="uid://bjmlwe6up4uns" path="res://models/dungeon/floor_foundation_allsides.gltf" id="2_du3t2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kxb4r"]
+size = Vector3(4, 2, 4)
+
+[node name="Platform" type="CharacterBody3D"]
+motion_mode = 1
+script = ExtResource("1_iv557")
+angle = 80.0
+
+[node name="floor_foundation_allsides2" parent="." instance=ExtResource("2_du3t2")]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1, 2.08165e-12)
+shape = SubResource("BoxShape3D_kxb4r")

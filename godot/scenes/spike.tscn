@@ -1,0 +1,55 @@
+[gd_scene load_steps=11 format=3 uid="uid://qom3nyqv0b84"]
+
+[ext_resource type="PackedScene" uid="uid://d01rq2robmm23" path="res://models/dungeon/floor_tile_big_spikes.gltf" id="1_5loey"]
+[ext_resource type="Script" path="res://scenes/spike.gd" id="1_kv26t"]
+[ext_resource type="AudioStream" uid="uid://bp4byp5ypjl4o" path="res://audio/impact/impactPlate_medium_000.ogg" id="3_68sdv"]
+[ext_resource type="AudioStream" uid="uid://b72xtvrx7i7lx" path="res://audio/impact/impactPlate_medium_001.ogg" id="4_ilyuq"]
+[ext_resource type="AudioStream" uid="uid://cpnvfijktevjc" path="res://audio/impact/impactPlate_medium_002.ogg" id="5_dcjfc"]
+[ext_resource type="AudioStream" uid="uid://cn20u84xd54s" path="res://audio/impact/impactPlate_medium_003.ogg" id="6_00uxi"]
+[ext_resource type="AudioStream" uid="uid://b0vktan8fni3y" path="res://audio/impact/impactPlate_medium_004.ogg" id="7_ntcto"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oklos"]
+size = Vector3(4, 1.9, 4)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qi603"]
+size = Vector3(2.5, 2, 2.5)
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_q2kpq"]
+random_pitch = 1.1
+random_volume_offset_db = 0.5
+streams_count = 5
+stream_0/stream = ExtResource("3_68sdv")
+stream_0/weight = 1.0
+stream_1/stream = ExtResource("4_ilyuq")
+stream_1/weight = 1.0
+stream_2/stream = ExtResource("5_dcjfc")
+stream_2/weight = 1.0
+stream_3/stream = ExtResource("6_00uxi")
+stream_3/weight = 1.0
+stream_4/stream = ExtResource("7_ntcto")
+stream_4/weight = 1.0
+
+[node name="Spike" type="CharacterBody3D"]
+motion_mode = 1
+
+[node name="floor_tile_big_spikes2" parent="." instance=ExtResource("1_5loey")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.9, 0)
+shape = SubResource("BoxShape3D_oklos")
+
+[node name="Area3D" type="Area3D" parent="." node_paths=PackedStringArray("slice_audio")]
+script = ExtResource("1_kv26t")
+slice_audio = NodePath("../SliceAudioStreamPlayer3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("BoxShape3D_qi603")
+
+[node name="SliceAudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = SubResource("AudioStreamRandomizer_q2kpq")
+volume_db = -15.0
+unit_size = 6.0
+max_db = 4.996e-16
+bus = &"Sound"
+
+[connection signal="body_entered" from="Area3D" to="Area3D" method="_on_body_entered"]
